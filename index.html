@@ -7,9 +7,142 @@
         <!-- Style Sheet Reset, if needed
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
         -->
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <header>
+            <div class="top-bar">
+                <div class="left-top-bar">
+                    <div class="logo">
+                        <a href="https://www.google.com" target="_blank">
+                            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="search-bar-container">
+                        <form action="">
+                            <input type="text" class="search-bar">
+                        </form>
+                        <div class="search-bar-icon-container">
+                            <a href="#" class="search-bar-icons">
+                                <img src="Images/google-mic.png" alt="colorful mic icon">
+                            </a>
+                            <a href="#" class="search-bar-icons">
+                                <span class="material-icons-outlined">
+                                    search
+                                </span> 
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="right-top-bar">
+                    <a href="#" class="right-top-bar-icon">
+                        <span class="material-icons-outlined">
+                            settings
+                        </span>
+                    </a>
+                    <a href="#" class="right-top-bar-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg>
+                    </a>
+                    <a href="#" class="right-top-bar-profile">
+                        <img src="Images/Headshot-square.jpg" alt="">
+                    </a>
+                </div>
+                
+            </div>
+
+            <!-- ====== TOOL BAR ====== -->
+
+            <div class="tool-bar">
+                <div class="tool-bar-options">
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg>
+                        </div>
+                        <p>
+                            All
+                        </p>
+                    </a>
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <svg focusable="false" viewBox="0 0 24 24" fill="#5f6368">
+                                <path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path>
+                            </svg>
+                        </div>
+                        <p>
+                            News
+                        </p>
+                    </a>
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <svg focusable="false" viewBox="0 0 24 24" fill="#5f6368">
+                                <path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path>
+                            </svg>
+                        </div>
+                        <p>
+                            Videos
+                        </p>
+                    </a>
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <span class="material-icons-outlined">
+                                place
+                            </span>
+                        </div>
+                        <p>
+                            Maps
+                        </p>
+                    </a>
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <span class="material-icons-outlined">
+                                sell
+                            </span>
+                        </div>
+                        <p>
+                            Shopping
+                        </p>
+                    </a>
+                    <a href="#" class="options">
+                        <div class="toolbar-img">
+                            <span class="material-icons-outlined">
+                                more_vert
+                            </span>
+                        </div>
+                        <p>
+                            More
+                        </p>
+                    </a>
+                </div>
+                <a href="#" class="tool-bar-button">
+                    Tools
+                </a>
+            </div>             
+        </header>
+        
+        <main>
+
+            <div class="sort-box">
+                <a href="#" class="sort-item">
+                    Any time
+                    <span class="arrow"></span>    
+                </a>
+                <a href="#" class="sort-item">
+                    All results
+                    <span class="arrow"></span>
+                </a>
+            </div>
+
+            
+        </main>       
         <script src="script.js"></script>
     </body>
 </html>
