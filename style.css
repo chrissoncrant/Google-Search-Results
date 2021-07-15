@@ -151,7 +151,7 @@ input:focus-visible {
 .right-top-bar-profile {
     width: 36px;
     height: 36px;
-    margin-left: 1em;
+    margin-left: .4em;
     background-color: none;
     transition: background-color 0.3s ease-out;
     border-radius: 50%;
@@ -241,6 +241,7 @@ input:focus-visible {
     font-size: 0.9em;
     margin-top: 120px;
     margin-left: 149px;
+    margin-bottom: 1em;
 }
 
 .sort-item {
@@ -256,5 +257,58 @@ input:focus-visible {
     position: absolute;
     top: 48%;
     margin-left: 5px;
-
 }
+
+.search-results-container {
+    margin-left: 163px;
+    color: black;
+}
+
+.search-result-box {
+    width: 675px;
+    margin-bottom: 2.5em;
+}
+
+    .search-result-site {
+        display: flex;
+        align-items: center;
+        border: 0, var(--test);
+    }
+
+        cite {
+            font-style: normal;
+            color: black;
+            font-size: 0.9em;
+            border: 0, var(--test);
+        }
+
+        .result-span {
+            margin-left: 0.3em;
+            font-size: 0.8em;
+            margin-right: 1em;
+        }
+
+        .result-dots {
+            font-size: 1.2em;
+            color: #555555;
+        }
+        
+        .site-header {
+            font-weight: 400;
+            font-size: 1.2em;
+            color: rgb(0, 0, 187);
+            text-decoration: underline;
+            margin: 0.3em 0 0.4em 0;
+        }
+
+    .site-description {
+        font-size: 0.9em;
+        color: #555555;
+
+    }
+        em {
+            font-style: normal;
+            font-weight: 800;
+        }
+
+        
